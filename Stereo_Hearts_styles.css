@@ -1,0 +1,98 @@
+#workskin .spotify {
+width: 100%;
+max-width: 320px;
+font-family: 'Helvetica', sans-serif;
+display: table;
+margin: auto;
+}
+
+#workskin .spotify .playlist {
+font-weight: 600;
+font-size: 200%;
+font-family: 'Helvetica', sans-serif;
+margin-top: -0.5em;
+margin-bottom: -0.5em;
+text-align: left;
+}
+
+#workskin .spotify .description {
+text-align: left;
+font-family: 'Helvetica', sans-serif;
+margin-top: -0.5em;
+}
+
+#workskin .pfp {
+height: 1.25em;
+width: 1.25em;
+float: left;
+margin-top: 0em;
+margin-right: 0.25em;
+border-radius: 50%;
+}
+
+#workskin .cover {
+width: 230px;
+height: 230px;
+overflow: hidden;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -0.5em;
+}
+
+#workskin .public {
+background-repeat: no-repeat;
+background-size: auto 0.9rem;
+height: 0.9em;
+width: 0.9em;
+float: left;
+margin-top: 0.25em;
+margin-right: 0.25em;
+background-image: url("https://raw.githubusercontent.com/zygopterror/fitbm/refs/heads/main/spotify_public_logo.png");
+}
+
+#workskin .private {
+background-repeat: no-repeat;
+background-size: auto 0.9rem;
+height: 0.9em;
+width: 0.9em;
+float: left;
+margin-top: 0.25em;
+margin-right: 0.25em;
+background-image: url("https://raw.githubusercontent.com/zygopterror/fitbm/refs/heads/main/spotify_private_logo.png");
+}
+
+#workskin .album {
+height: 3em;
+width: 3em;
+float: left;
+margin-top: 0em;
+margin-right: 1em;
+line-height: 0;
+}
+
+#workskin .spotify .song {
+font-family: 'Helvetica', sans-serif;
+font-size: 125%;
+margin-bottom: -0.5em;
+font-weight: 600;
+line-height: 0;
+}
+
+#workskin .play {
+background-repeat: no-repeat;
+background-size: auto 3rem;
+height: 3.5em;
+width: 3.5em;
+float: right;
+background-image: url("https://raw.githubusercontent.com/zygopterror/fitbm/refs/heads/main/spotify_play_button.png");
+}
+
+#workskin .pause {
+background-repeat: no-repeat;
+background-size: auto 3rem;
+height: 3.5em;
+width: 3.5em;
+float: right;
+background-image: url("https://raw.githubusercontent.com/zygopterror/fitbm/refs/heads/main/spotify_pause.png");
+}
